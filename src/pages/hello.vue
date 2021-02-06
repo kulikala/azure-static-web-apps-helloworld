@@ -1,24 +1,20 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
+      <div>
+        <img src="https://appservice.azureedge.net/images/static-apps/v3/staticapps.svg">
+      </div>
       <h1 class="title">
-        Hello, Azure!
+        Azure Static Web Apps<br>is awesome
       </h1>
       <div class="links">
         <a
-          href="hello"
-          class="button--green"
-        >
-          Next page
-        </a>
-        <a
-          href="https://github.com/kulikala/azure-static-web-apps-vue-helloworld"
+          href="https://azure.microsoft.com/ja-jp/services/app-service/static/"
           target="_blank"
           rel="noopener noreferrer"
           class="button--grey"
         >
-          GitHub
+          Azure Static Web Apps
         </a>
       </div>
     </div>
