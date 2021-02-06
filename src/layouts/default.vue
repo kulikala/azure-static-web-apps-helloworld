@@ -24,6 +24,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-color: #1c305c;
+}
+
 *,
 *::before,
 *::after {
@@ -34,8 +38,8 @@ html {
 .button--green {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #3b8070;
-  color: #3b8070;
+  border: 1px solid #00C58E;
+  color: #00C58E;
   text-decoration: none;
   padding: 10px 30px;
 }
@@ -48,8 +52,8 @@ html {
 .button--grey {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid #35495e;
-  color: #35495e;
+  border: 1px solid #999999;
+  color: #999999;
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
